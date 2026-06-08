@@ -1,0 +1,94 @@
+<svg width="100%" viewBox="0 0 680 540" xmlns="http://www.w3.org/2000/svg" role="img">
+<title>Lyapunov exponents — injective coding (golden-mean SFT), transposed view</title>
+<desc>Transposed plot for the injective regime: Lyapunov λ on horizontal axis, multiplier m₁ on vertical axis (log scale, starting at φ). The ceiling λ = log φ becomes a vertical wall on the right. Three of the five Catalan constants now sit past that wall.</desc>
+
+<defs>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+<path d="M2 1L8 5L2 9" fill="none" stroke="context-stroke" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</marker>
+</defs>
+
+<text x="340" y="28" text-anchor="middle" style="font-size:15px;fill:#1F1E1B;font-family:Anthropic Sans, -apple-system, sans-serif;font-weight:500">Injective coding (golden-mean SFT) — transposed: λ along x, m₁ along y</text>
+<text x="340" y="48" text-anchor="middle" style="font-size:12px;fill:#5F5E5A;font-family:Anthropic Sans, -apple-system, sans-serif;font-weight:400">Ceiling collapses to λ = log φ. Three Catalan constants (G, log 2, G·log 2) sit past the right wall.</text>
+
+<g transform="translate(70, 80)">
+
+<rect x="0" y="0" width="560" height="320" fill="none" stroke="#D3D1C7" stroke-width="0.5"/>
+
+<g stroke="#D3D1C7" stroke-width="0.4" stroke-dasharray="2 3" opacity="0.6">
+<line x1="0" y1="19.8" x2="560" y2="19.8"/>
+<line x1="0" y1="57.6" x2="560" y2="57.6"/>
+<line x1="0" y1="105.2" x2="560" y2="105.2"/>
+<line x1="0" y1="169.9" x2="560" y2="169.9"/>
+<line x1="0" y1="234.5" x2="560" y2="234.5"/>
+<line x1="73" y1="0" x2="73" y2="320"/>
+<line x1="194.8" y1="0" x2="194.8" y2="320"/>
+<line x1="316.5" y1="0" x2="316.5" y2="320"/>
+<line x1="438.3" y1="0" x2="438.3" y2="320"/>
+</g>
+
+<g fill="#5F5E5A" font-family="ui-monospace, monospace" font-size="10">
+<text x="-8" y="4" text-anchor="end">φ</text>
+<text x="-8" y="23.8" text-anchor="end">2</text>
+<text x="-8" y="61.6" text-anchor="end">3</text>
+<text x="-8" y="109.2" text-anchor="end">5</text>
+<text x="-8" y="173.9" text-anchor="end">10</text>
+<text x="-8" y="238.5" text-anchor="end">20</text>
+<text x="-8" y="324" text-anchor="end">50</text>
+<text x="73" y="338" text-anchor="middle">0.1</text>
+<text x="194.8" y="338" text-anchor="middle">0.2</text>
+<text x="316.5" y="338" text-anchor="middle">0.3</text>
+<text x="438.3" y="338" text-anchor="middle">0.4</text>
+</g>
+
+<text x="-44" y="160" transform="rotate(-90 -44 160)" text-anchor="middle" style="font-size:12px;fill:#5F5E5A;font-family:Anthropic Sans, sans-serif">multiplier m₁ (log scale, m₂ = 1/(m₁−1))</text>
+<text x="280" y="362" text-anchor="middle" style="font-size:12px;fill:#5F5E5A;font-family:Anthropic Sans, sans-serif">Lyapunov λ</text>
+
+<g stroke="#1D9E75" stroke-width="0.8" opacity="0.85">
+<line x1="537.1" y1="0" x2="537.1" y2="320"/>
+<text x="532" y="316" fill="#0F6E56" text-anchor="end" transform="rotate(-90 532 316)" style="font-size:10px;font-family:Anthropic Sans, sans-serif">λ = log φ = 0.481 (ceiling, m₁=φ)</text>
+</g>
+
+<g stroke="#D85A30" stroke-width="0.5" opacity="0.7" stroke-dasharray="4 2">
+<line x1="508.8" y1="0" x2="508.8" y2="320"/>
+<text x="504" y="316" fill="#993C1D" text-anchor="end" transform="rotate(-90 504 316)" style="font-size:10px;font-family:Anthropic Sans, sans-serif">G/2 = 0.458 ✓ (barely)</text>
+</g>
+
+<g stroke="#7F77DD" stroke-width="0.5" opacity="0.7" stroke-dasharray="4 2">
+<line x1="443.4" y1="0" x2="443.4" y2="320"/>
+<text x="439" y="316" fill="#3C3489" text-anchor="end" transform="rotate(-90 439 316)" style="font-size:10px;font-family:Anthropic Sans, sans-serif">(2G/π)·log 2 = 0.404 ✓</text>
+</g>
+
+<g stroke="#D4537E" stroke-width="0.5" opacity="0.65" stroke-dasharray="4 2">
+<line x1="58.2" y1="0" x2="58.2" y2="320"/>
+<text x="62" y="316" fill="#993556" transform="rotate(-90 62 316)" style="font-size:10px;font-family:Anthropic Sans, sans-serif">log(1/G) = 0.0878 ✓</text>
+</g>
+
+<g stroke="#A32D2D" stroke-width="0.6" opacity="0.5" stroke-dasharray="2 4">
+<line x1="585" y1="0" x2="585" y2="320"/>
+<text x="580" y="316" fill="#A32D2D" text-anchor="end" transform="rotate(-90 580 316)" style="font-size:10px;font-family:Anthropic Sans, sans-serif">G·log 2, log 2, G — all ✗ past right wall (off-chart)</text>
+</g>
+
+<rect x="537.1" y="0" width="22.9" height="320" fill="#A32D2D" opacity="0.05"/>
+
+<path d="M 537.1,0.0 L 534.9,5.4 L 529.1,10.8 L 520.5,16.3 L 509.9,21.7 L 497.7,27.1 L 484.4,32.5 L 470.4,38.0 L 455.8,43.4 L 440.8,48.8 L 425.6,54.2 L 410.4,59.7 L 395.2,65.1 L 380.2,70.5 L 365.3,75.9 L 350.6,81.4 L 336.3,86.8 L 322.2,92.2 L 308.4,97.6 L 295.0,103.1 L 282.0,108.5 L 269.3,113.9 L 257.0,119.3 L 245.0,124.7 L 233.4,130.2 L 222.2,135.6 L 211.4,141.0 L 200.9,146.4 L 190.8,151.9 L 181.0,157.3 L 171.6,162.7 L 162.5,168.1 L 153.7,173.6 L 145.2,179.0 L 137.1,184.4 L 129.3,189.8 L 121.8,195.3 L 114.5,200.7 L 107.5,206.1 L 100.8,211.5 L 94.4,216.9 L 88.2,222.4 L 82.3,227.8 L 76.6,233.2 L 71.1,238.6 L 65.9,244.1 L 60.8,249.5 L 56.0,254.9 L 51.4,260.3 L 46.9,265.8 L 42.7,271.2 L 38.6,276.6 L 34.7,282.0 L 30.9,287.5 L 27.3,292.9 L 23.9,298.3 L 20.6,303.7 L 17.5,309.2 L 14.5,314.6 L 11.6,320.0" fill="none" stroke="#3C3489" stroke-width="1.6"/>
+
+<g>
+<circle cx="537.1" cy="0" r="3.5" fill="#3C3489"/>
+<circle cx="537.1" cy="0" r="1.3" fill="#FFFFFF"/>
+<line x1="537.1" y1="0" x2="490" y2="32" stroke="#3C3489" stroke-width="0.6"/>
+<text x="368" y="36" fill="#3C3489" style="font-size:10px;font-family:Anthropic Sans, sans-serif">m₁=m₂=φ, peak (Parry measure, top-right)</text>
+</g>
+
+</g>
+
+<g transform="translate(40, 430)">
+<rect x="0" y="0" width="600" height="92" rx="8" fill="#FAEEDA" stroke="#EF9F27" stroke-width="0.5"/>
+<text x="14" y="20" fill="#854F0B" style="font-size:12px;font-family:Anthropic Sans, sans-serif;font-weight:500">Injective regime — right wall slides left by log(2/φ) ≈ 0.212</text>
+<text x="14" y="38" fill="#633806" style="font-size:11px;font-family:Anthropic Sans, sans-serif">Forbidden region (past x = log φ) shaded faint red. Three Catalan constants sit inside that region.</text>
+<text x="14" y="54" fill="#633806" style="font-size:11px;font-family:Anthropic Sans, sans-serif">Only 2 vertical lines (G/2 and (2G/π)·log 2) still cross the curve — plus log(1/G) on the long tail.</text>
+<text x="14" y="70" fill="#633806" style="font-size:11px;font-family:Anthropic Sans, sans-serif">G/2 grazes the ceiling: G/2 = 0.458 vs log φ = 0.481, gap ≈ 0.023. Numerically close, not structurally tied.</text>
+<text x="14" y="86" fill="#633806" style="font-size:11px;font-family:Anthropic Sans, sans-serif">Side-by-side with the bijective view: the right wall is the variational ceiling h_top — that's the real distinction.</text>
+</g>
+
+</svg>
