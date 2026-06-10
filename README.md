@@ -1,4 +1,4 @@
-# Catalan_Mg
+# Catalan_Ruelle_Mayer
 
 This repository now has a reproducible generation pipeline for the exploratory Catalan / Mg / ZDED visuals that were previously stored mostly as flat artifacts.
 
